@@ -57,4 +57,4 @@ model_3_age ; plot(model_3_age) # la classe d'age 1 a 350 * moins de risque que 
 model_3_vaccination = emmeans(model_3, specs = pairwise ~ VACCINATION, type = "response")
 model_3_vaccination ; plot(model_3_vaccination) # les vaccines on 3 * moins de risque
 
-
+# test
