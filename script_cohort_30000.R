@@ -7,7 +7,6 @@ library(DataExplorer)
 library(easystats)
 library(emmeans)
 library(tidymodels)
-library(here)
 
 ##### import de la table #####
 dt_cohort = fread("Database_Cohort_30423_COVID-19_IHU_032923.txt") |> 
